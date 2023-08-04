@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065343972A7DB5DD00D433D1 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065343962A7DB5DD00D433D1 /* ImageCarouselView.swift */; };
 		FBE020892A7DA94600CD2328 /* GamePapelTijeraArmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE020882A7DA94600CD2328 /* GamePapelTijeraArmApp.swift */; };
 		FBE0208B2A7DA94600CD2328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0208A2A7DA94600CD2328 /* ContentView.swift */; };
 		FBE0208D2A7DA94800CD2328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE0208C2A7DA94800CD2328 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065343962A7DB5DD00D433D1 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 		FBE020852A7DA94600CD2328 /* GamePapelTijeraArm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamePapelTijeraArm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE020882A7DA94600CD2328 /* GamePapelTijeraArmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePapelTijeraArmApp.swift; sourceTree = "<group>"; };
 		FBE0208A2A7DA94600CD2328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				FBE0208C2A7DA94800CD2328 /* Assets.xcassets */,
 				FBE0208E2A7DA94800CD2328 /* Preview Content */,
 				FBE020962A7DAC7500CD2328 /* BackgroundColor.swift */,
+				065343962A7DB5DD00D433D1 /* ImageCarouselView.swift */,
 			);
 			path = GamePapelTijeraArm;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				FBE0208B2A7DA94600CD2328 /* ContentView.swift in Sources */,
 				FBE020972A7DAC7500CD2328 /* BackgroundColor.swift in Sources */,
+				065343972A7DB5DD00D433D1 /* ImageCarouselView.swift in Sources */,
 				FBE020892A7DA94600CD2328 /* GamePapelTijeraArmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
