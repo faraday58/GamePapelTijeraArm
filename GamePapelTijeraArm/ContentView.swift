@@ -14,7 +14,7 @@ struct ContentView: View {
         ZStack {
             BackgroundColor()
             
-            VStack {
+            VStack (spacing: 45){
                 Text("Steps:")
                     .font(.title)
                 Text("Your Score is:")
@@ -29,10 +29,11 @@ struct ContentView: View {
             }
             HStack{
                 ForEach(0 ..< moves.count)
-                {movesId in Button(action:{
+                { movesId in Button(action:{
                     
                 }){
-                    Text("\(self.moves[movesId])")
+                    Image("\(self.moves[movesId])")
+                        .resizable()
                         .frame(width: 80, height: 100)
                         .foregroundColor(.white)
                     
@@ -40,7 +41,7 @@ struct ContentView: View {
                 }.frame(width: 100,height: 100,alignment: .center)
                     
                 }
-            }
+            }.padding(.top, 250)
             
         }
 
