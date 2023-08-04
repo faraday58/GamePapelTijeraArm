@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     let moves = ["Rock","Paper","Scissors"]
+    @State private var showingAlert = false
     var body: some View {
         
         ZStack {
@@ -39,6 +40,9 @@ struct ContentView: View {
                     
                     
                 }.frame(width: 100,height: 100,alignment: .center)
+                        .alert(isPresented: self.$showingAlert) {
+                            Alert(title: Text("Hello"), message: Text("Presionaste: \(moves[movesId])"), dismissButton: .default(Text("OK")))
+                        }
                     
                 }
             }.padding(.top, 250)
