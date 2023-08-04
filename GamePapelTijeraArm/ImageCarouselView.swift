@@ -14,9 +14,7 @@ struct ImageCarouselView: View {
     
     var body: some View {
         
-        Text(moves[currentIndex])
-            .aspectRatio(contentMode: .fit)
-            .animation(.easeInOut(duration: 0.5))
+        Image("\(moves[currentIndex])")
         
     }
 }
