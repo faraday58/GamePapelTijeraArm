@@ -11,6 +11,17 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundColor()
+            
+            VStack {
+                Text("Steps:")
+                    .font(.title)
+                Text("Your Score is:")
+                    .font(.title)
+                
+                Text("Select your option")
+                    .font(.largeTitle)
+                    .padding(.top,100)
+            }
            
             
         }
