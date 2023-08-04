@@ -13,7 +13,6 @@ struct ContentView: View {
             BackgroundColor()
             
             VStack {
-                
                 Text("Steps:")
                     .font(.title)
                 Text("Your Score is:")
