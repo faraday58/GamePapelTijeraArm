@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     let moves = ["Rock","Paper","Scissors"]
+    @State private var showingAlert = false
     var body: some View {
         
         ZStack {
             BackgroundColor()
             
-            VStack {
+            VStack (spacing: 45){
                 Text("Steps:")
                     .font(.title)
                 Text("Your Score is:")
@@ -29,18 +30,22 @@ struct ContentView: View {
             }
             HStack{
                 ForEach(0 ..< moves.count)
-                {movesId in Button(action:{
+                { movesId in Button(action:{
                     
                 }){
-                    Text("\(self.moves[movesId])")
+                    Image("\(self.moves[movesId])")
+                        .resizable()
                         .frame(width: 80, height: 100)
                         .foregroundColor(.white)
                     
                     
                 }.frame(width: 100,height: 100,alignment: .center)
+                        .alert(isPresented: self.$showingAlert) {
+                            Alert(title: Text("Hello"), message: Text("Presionaste: \(moves[movesId])"), dismissButton: .default(Text("OK")))
+                        }
                     
                 }
-            }
+            }.padding(.top, 250)
             
         }
 
