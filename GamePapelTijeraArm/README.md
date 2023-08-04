@@ -9,3 +9,17 @@ Esto es una lista:
 
 
 *Esto es lo bueno*
+
+```
+
+ZStack {
+            BackgroundColor()
+            
+            VStack {
+                Text("Steps:")
+                    .font(.title)
+                Text("Your Score is:")
+                    .font(.title)
+                
+                ImageCarouselView()
+```
