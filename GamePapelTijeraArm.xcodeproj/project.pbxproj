@@ -11,6 +11,7 @@
 		FBE0208B2A7DA94600CD2328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0208A2A7DA94600CD2328 /* ContentView.swift */; };
 		FBE0208D2A7DA94800CD2328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE0208C2A7DA94800CD2328 /* Assets.xcassets */; };
 		FBE020902A7DA94800CD2328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE0208F2A7DA94800CD2328 /* Preview Assets.xcassets */; };
+		FBE020972A7DAC7500CD2328 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE020962A7DAC7500CD2328 /* BackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FBE0208A2A7DA94600CD2328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBE0208C2A7DA94800CD2328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE0208F2A7DA94800CD2328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBE020962A7DAC7500CD2328 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				FBE0208A2A7DA94600CD2328 /* ContentView.swift */,
 				FBE0208C2A7DA94800CD2328 /* Assets.xcassets */,
 				FBE0208E2A7DA94800CD2328 /* Preview Content */,
+				FBE020962A7DAC7500CD2328 /* BackgroundColor.swift */,
 			);
 			path = GamePapelTijeraArm;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE0208B2A7DA94600CD2328 /* ContentView.swift in Sources */,
+				FBE020972A7DAC7500CD2328 /* BackgroundColor.swift in Sources */,
 				FBE020892A7DA94600CD2328 /* GamePapelTijeraArmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
